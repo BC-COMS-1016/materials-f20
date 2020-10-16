@@ -1,0 +1,10 @@
+test = {   'name': 'q4_1_1',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # Fill in the line;\n>>> #    num_avenues_away = ...;\n>>> num_avenues_away != ...\nTrue', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # Remember to compute the absolute value of 7-10.;\n>>> # Traveling a negative 3 blocks doesnt make sense.;\n>>> num_avenues_away != -3\nTrue',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
