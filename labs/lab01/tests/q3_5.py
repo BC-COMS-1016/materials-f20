@@ -1,10 +1,9 @@
 test = {   'name': 'q3_5',
     'points': 1,
-    'suites': [   {   'cases': [   {   'code': '>>> assert farmers_markets_locations_by_latitude[\'MarketName\'][0] == "Tanana Valley Farmers Market";\n'
-                                               '>>> assert farmers_markets_locations_by_latitude[\'MarketName\'][1] == "Ester Community Market";\n'
-                                               '>>> assert farmers_markets_locations_by_latitude[\'MarketName\'][2] == "Fairbanks Downtown Market"\n',
+    'suites': [   {   'cases': [   {   'code': '>>> # It looks like you forgot to assign a value to farmers_markets_without_fmid;\n>>> assert farmers_markets_without_fmid != ...\n',
                                        'hidden': False,
-                                       'locked': False}],
+                                       'locked': False},
+                                   {'code': '>>> assert farmers_markets_without_fmid.num_columns == 57\n', 'hidden': False, 'locked': False}],
                       'scored': True,
                       'setup': '',
                       'teardown': '',
