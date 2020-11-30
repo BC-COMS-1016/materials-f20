@@ -1,6 +1,6 @@
 test = {   'name': 'q1_3',
-    'points': 2,
-    'suites': [   {   'cases': [{'code': '>>> assert type(max_estimate) in set([int, np.int32, np.int64])\n', 'hidden': False, 'locked': False}],
+    'points': 1,
+    'suites': [   {   'cases': [{'code': '>>> assert 15 <= spice_lower_bound <= spice_upper_bound <= 35\n', 'hidden': False, 'locked': False}],
                       'scored': True,
                       'setup': '',
                       'teardown': '',
